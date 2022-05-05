@@ -1,7 +1,7 @@
 
 <?php
 
-$token = "5306948805:AAEl7F_jgPLq0cGIiLl8O41T6NBFJE36YD4";// توكنك 
+$token = "5320936811:AAGq4vNDvJNVdeBOKgMOt8vPkeiGVrIuO3Y";// توكنك 
 
 define('API_KEY',$token);
 echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
@@ -130,12 +130,12 @@ $NameDevpe = json_decode(file_get_contents("http://api.telegram.org/bot$token/ge
 $admin = "1336931145";
 $Dev = array("$admin","5242981884");
 $eri = array("$admin","1336931145");
-$idbot = "5306948805";
+$idbot = "5320936811";
 $sudo = "$admin";
 $buy = "Ibrahaim";
 $DevUser = "@$buy";
 $devchink = "R_OM_18";
-$userbot = "SLV_0BOT";
+$userbot = "TEST_HU_BPTbot";
 $chsource = "@$devchink";
 ############
 
